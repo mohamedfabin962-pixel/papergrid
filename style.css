@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paper-head{
+    height:23px;
+    width: 98.7%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    font-size: 13px;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.paper-hedsec{
+    height: 88px;
+    width: 100%;
+    background-color: black;
+}
+
+.main{
+   background-color: black; 
+   color: white;
+   height: 90px;
+   display: flex;
+}
+.first{
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 38px;
+    
+}
+.menu{
+display: flex;
+align-items: center;
+   gap: 30px;
+   padding-left: 30px;
+    
+}
+.menu :hover{
+   text-decoration: underline;
+    
+}
+.profile{
+    margin-left: 750px;
+    padding-top: 30px;
+    font-size: 22px;
+    
+}
+.profile :hover{
+  transform: translateY(-4px);
+}
+.body{
+background-color: white;
+}
+.images{
+    width: 100%;
+    height:1138 px;
+    display: grid;
+    grid-template-columns: repeat(3,340px);
+    grid-template-rows: repeat(3,300px);
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+.images img{
+    width: 320px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 30px;
+}
+.end-body{
+    background-color: white;
+    display: flex;
+    gap: 5px;
+}
+.person-image{
+   
+    padding-left: 220px;
+}
+.founder{
+   padding-left: 100px;
+   padding-top: 90px;
+   
+}
+.founder button{
+    background-color: black;
+    color: white;
+     width: 100px;
+     height: 50px;     
+}
+
+.foot{
+
+    background-color: black;
+    color: white;
+    height: 300px;
+    width:100%;
+   text-align: center;
+   padding-top: 50px;
+   margin: 0.3px;
+
+}
+.foot li{
+    margin: 20px;
+    border: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+.last-foot{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 50px;
+   
+   
+    
+}
+
+.last-foot ul{
+    color: white;
+     display: flex;
+     gap: 20px;
+     padding-left: 130px;
+     font-size: 12px;
+    
+}
+.last-foot li:hover{
+    
+    text-decoration: underline;
+}
